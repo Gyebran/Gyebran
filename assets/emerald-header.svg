@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="title desc">
+  <title id="title">Gyebran Nauri Haikal — Emerald Matrix profile header</title>
+  <desc id="desc">Dark matrix-inspired developer header with emerald accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#050806"/>
+      <stop offset="0.55" stop-color="#07130d"/>
+      <stop offset="1" stop-color="#020403"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="78%" cy="42%" r="48%">
+      <stop offset="0" stop-color="#00ff9c" stop-opacity="0.16"/>
+      <stop offset="0.55" stop-color="#22c55e" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#00ff9c" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#19e68c" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+      .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      @keyframes blink { 0%,45%{opacity:1} 46%,100%{opacity:.12} }
+      @keyframes pulse { 0%,100%{opacity:.35} 50%{opacity:.85} }
+      .cursor { animation: blink 1s steps(1,end) infinite; }
+      .pulse { animation: pulse 3.5s ease-in-out infinite; }
+      @media (prefers-reduced-motion: reduce) { .cursor,.pulse { animation:none; } }
+    </style>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#grid)"/>
+  <rect width="1200" height="320" rx="24" fill="url(#glow)"/>
+  <rect x="1" y="1" width="1198" height="318" rx="23" fill="none" stroke="#00ff9c" stroke-opacity="0.22"/>
+
+  <g class="mono" font-size="14" fill="#00ff9c" opacity="0.16">
+    <text x="770" y="42">01000111 01011001 01000101 01000010 01010010 01000001 01001110</text>
+    <text x="820" y="68">SYSTEMS // WEB // AI // ARCHITECTURE</text>
+    <text x="895" y="94">10110101 00101100 11100010</text>
+    <text x="760" y="234">BUILD → LEARN → IMPROVE → REPEAT</text>
+    <text x="930" y="260">01100010 01110101 01101001 01101100 01100100</text>
+    <text x="790" y="286">process.model(); system.design(); ship();</text>
+  </g>
+
+  <g opacity="0.24" fill="#00ff9c" class="mono" font-size="12">
+    <text x="700" y="122">01</text><text x="735" y="148">11</text><text x="770" y="176">00</text><text x="805" y="204">10</text>
+    <text x="1110" y="126">10</text><text x="1075" y="154">01</text><text x="1040" y="182">11</text><text x="1005" y="210">00</text>
+  </g>
+
+  <text x="64" y="66" class="mono" font-size="18" font-weight="600" fill="#7ee787">&gt; hello, i'm</text>
+  <text x="62" y="146" class="sans" font-size="64" font-weight="850" letter-spacing="-2" fill="#f0f6fc">GYEBRAN</text>
+  <text x="62" y="202" class="sans" font-size="42" font-weight="800" letter-spacing="-1" fill="#00ff9c" filter="url(#softGlow)">NAURI HAIKAL</text>
+  <text x="64" y="244" class="sans" font-size="21" font-weight="500" fill="#b7c9bf">Full-Stack Developer · Information Systems Student</text>
+  <text x="64" y="278" class="mono" font-size="16" fill="#86efac">building useful digital products with code, systems thinking &amp; AI</text>
+  <rect x="684" y="267" width="10" height="17" rx="1" fill="#00ff9c" class="cursor"/>
+
+  <g transform="translate(965 24)">
+    <rect width="177" height="36" rx="18" fill="#07130d" stroke="#22c55e" stroke-opacity="0.5"/>
+    <circle cx="20" cy="18" r="5" fill="#00ff9c" class="pulse"/>
+    <text x="36" y="23" class="mono" font-size="13" font-weight="700" fill="#86efac">STATUS: ONLINE</text>
+  </g>
+</svg>
