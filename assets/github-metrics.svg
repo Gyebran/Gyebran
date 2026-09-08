@@ -1,15 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-labelledby="title desc">
-  <title id="title">Gyebran GitHub metrics</title>
-  <desc id="desc">Self-hosted Emerald Matrix GitHub metrics panel. Values are refreshed automatically by GitHub Actions.</desc>
+  <title id="title">Gyebran GitHub live metrics</title>
+  <desc id="desc">Self-hosted GitHub metrics refreshed automatically from the GitHub API.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#06120c"/><stop offset="1" stop-color="#091a12"/>
     </linearGradient>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <path d="M22 0H0V22" fill="none" stroke="#0f2d1f" stroke-width="1" opacity="0.36"/>
+    </pattern>
   </defs>
   <rect x="1" y="1" width="998" height="228" rx="18" fill="url(#bg)" stroke="#174c34" stroke-width="2"/>
-  <text x="36" y="44" fill="#86efac" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" font-weight="700">GITHUB://LIVE_TELEMETRY</text>
-  <text x="36" y="78" fill="#5c8374" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14">syncing live metrics from GitHub API...</text>
-  <rect x="36" y="105" width="928" height="1" fill="#174c34"/>
-  <text x="36" y="156" fill="#00ff9c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="28" font-weight="700">INITIALIZING</text>
-  <text x="36" y="190" fill="#7ee787" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13">This panel will update automatically after the next profile workflow run.</text>
+  <rect x="1" y="1" width="998" height="228" rx="18" fill="url(#grid)"/>
+  <text x="36" y="43" fill="#86efac" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="17" font-weight="700">GITHUB://LIVE_TELEMETRY</text>
+  <text x="872" y="43" fill="#00ff9c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" font-weight="700">● SYNCED</text>
+  <rect x="36" y="78" width="214" height="108" rx="12" fill="#081710" stroke="#174c34"/><text x="54" y="111" fill="#5c8374" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700">PUBLIC REPOS</text><text x="54" y="158" fill="#00ff9c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="31" font-weight="800">12</text><rect x="266" y="78" width="214" height="108" rx="12" fill="#081710" stroke="#174c34"/><text x="284" y="111" fill="#5c8374" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700">FOLLOWERS</text><text x="284" y="158" fill="#00ff9c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="31" font-weight="800">0</text><rect x="496" y="78" width="214" height="108" rx="12" fill="#081710" stroke="#174c34"/><text x="514" y="111" fill="#5c8374" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700">TOTAL STARS</text><text x="514" y="158" fill="#00ff9c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="31" font-weight="800">0</text><rect x="726" y="78" width="214" height="108" rx="12" fill="#081710" stroke="#174c34"/><text x="744" y="111" fill="#5c8374" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="12" font-weight="700">ON GITHUB SINCE</text><text x="744" y="158" fill="#00ff9c" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="31" font-weight="800">2023</text>
+  <text x="36" y="210" fill="#5c8374" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="11">UPDATED 2026-09-08 14:02 WIB</text>
 </svg>
