@@ -9,7 +9,7 @@ on:
       - main
     paths:
       - ".github/workflows/recent-activity.yml"
-      - ".github/recent-activity.config.yml"
+      - ".github/scripts/update_activity.py"
 
 permissions:
   contents: write
@@ -21,11 +21,22 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
-      - name: Update recent activity
-        uses: Readme-Workflows/recent-activity@v2.4.1
+      - name: Refresh recent public activity
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          CONFIG_FILE: ./.github/recent-activity.config.yml
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/scripts/update_activity.py
+
+      - name: Commit README changes
+        run: |
+          if git diff --quiet -- README.md; then
+            echo "No README activity changes to commit."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore: refresh profile activity"
+          git push
