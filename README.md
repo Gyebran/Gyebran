@@ -128,34 +128,36 @@ INTERESTS  AI Integration · BPMN · System Architecture · Automation
 
 ## `> featured_projects --limit=4`
 
-<div align="center">
-
-<a href="https://github.com/Gyebran/gyebran-portfolio">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Gyebran&repo=gyebran-portfolio&hide_border=false&bg_color=07130D&title_color=00FF9C&text_color=B7C9BF&icon_color=22C55E&border_color=174C34" alt="gyebran-portfolio repository card" />
-</a>
-<a href="https://github.com/Gyebran/WEB_PEMINJAMAN_RUANGAN">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Gyebran&repo=WEB_PEMINJAMAN_RUANGAN&hide_border=false&bg_color=07130D&title_color=00FF9C&text_color=B7C9BF&icon_color=22C55E&border_color=174C34" alt="Web Peminjaman Ruangan repository card" />
-</a>
-
-<a href="https://github.com/Gyebran/backend-interactive-edutainment">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Gyebran&repo=backend-interactive-edutainment&hide_border=false&bg_color=07130D&title_color=00FF9C&text_color=B7C9BF&icon_color=22C55E&border_color=174C34" alt="Interactive Edutainment repository card" />
-</a>
-<a href="https://github.com/Gyebran/backend-etani">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=Gyebran&repo=backend-etani&hide_border=false&bg_color=07130D&title_color=00FF9C&text_color=B7C9BF&icon_color=22C55E&border_color=174C34" alt="E-Tani API repository card" />
-</a>
-
-</div>
-
-<details>
-<summary><b>▸ What these projects are about</b></summary>
-<br />
-
-- **gyebran-portfolio** — Personal portfolio built with React, Three.js, GSAP, Vite, and motion-focused UI work.
-- **Web Peminjaman Ruangan** — Room reservation web application built with Next.js, TypeScript, Supabase, and Tailwind CSS.
-- **Interactive Edutainment** — Interactive education platform using Node.js/TypeScript, Next.js, Docker, Cloudinary, and Gemini integration.
-- **E-Tani API** — Express backend that turns weather conditions into practical farming recommendations and multi-day insights.
-
-</details>
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>◈ <a href="https://github.com/Gyebran/gyebran-portfolio">gyebran-portfolio</a></h3>
+<p>Interactive personal portfolio with a motion-heavy React interface and Three.js hero experience.</p>
+<p><code>React</code> <code>Three.js</code> <code>GSAP</code> <code>Vite</code></p>
+<a href="https://github.com/Gyebran/gyebran-portfolio"><b>Open repository →</b></a>
+</td>
+<td width="50%" valign="top">
+<h3>◈ <a href="https://github.com/Gyebran/WEB_PEMINJAMAN_RUANGAN">Web Peminjaman Ruangan</a></h3>
+<p>Room reservation platform built around a modern TypeScript workflow and Supabase-backed data.</p>
+<p><code>Next.js</code> <code>TypeScript</code> <code>Supabase</code> <code>Tailwind</code></p>
+<a href="https://github.com/Gyebran/WEB_PEMINJAMAN_RUANGAN"><b>Open repository →</b></a>
+</td>
+</tr>
+<tr>
+<td valign="top">
+<h3>◈ <a href="https://github.com/Gyebran/backend-interactive-edutainment">Interactive Edutainment</a></h3>
+<p>Interactive education platform using a simple microservices approach with AI integration.</p>
+<p><code>Node.js</code> <code>TypeScript</code> <code>Docker</code> <code>Gemini</code></p>
+<a href="https://github.com/Gyebran/backend-interactive-edutainment"><b>Open repository →</b></a>
+</td>
+<td valign="top">
+<h3>◈ <a href="https://github.com/Gyebran/backend-etani">E-Tani API</a></h3>
+<p>Weather-aware Express backend that turns forecast conditions into practical farming recommendations.</p>
+<p><code>Node.js</code> <code>Express</code> <code>REST API</code> <code>Weather Logic</code></p>
+<a href="https://github.com/Gyebran/backend-etani"><b>Open repository →</b></a>
+</td>
+</tr>
+</table>
 
 <p align="right"><a href="https://github.com/Gyebran?tab=repositories"><b>View all repositories →</b></a></p>
 
@@ -163,33 +165,30 @@ INTERESTS  AI Integration · BPMN · System Architecture · Automation
 
 ## `> matrix_console`
 
-```text
-┌─ CURRENT PROCESS ────────────────────────────────────────────────────┐
-│ BUILDING   full-stack & AI-integrated applications                  │
-│ LEARNING   deeper system design, architecture & automation          │
-│ EXPLORING  practical ways to connect technology with real workflows │
-│ GOAL       become a better builder with every project               │
-└─────────────────────────────────────────────────────────────────────┘
-```
+<div align="center">
+  <img src="./assets/matrix-console.svg" width="100%" alt="Current process matrix console" />
+</div>
 
 ---
 
 ## `> github_metrics --live`
 
 <div align="center">
-
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=Gyebran&show_icons=true&include_all_commits=true&hide_border=false&bg_color=07130D&title_color=00FF9C&text_color=B7C9BF&icon_color=22C55E&ring_color=00FF9C&border_color=174C34" alt="Gyebran GitHub stats" />
-<img height="175" src="https://streak-stats.demolab.com?user=Gyebran&hide_border=false&background=07130D&ring=00FF9C&fire=22C55E&currStreakNum=E6EDF3&sideNums=86EFAC&currStreakLabel=00FF9C&sideLabels=7EE787&dates=5C8374&border=174C34" alt="Gyebran GitHub streak" />
-
+  <img src="./assets/github-metrics.svg" width="100%" alt="Live GitHub metrics generated by this profile repository" />
 </div>
+
+<sub>Self-hosted metrics · refreshed automatically from GitHub API</sub>
 
 ---
 
 ## `> recent_activity --watch`
 
 <!--RECENT_ACTIVITY:start-->
-1. ↗ Pushed 1 commit to [Gyebran/gyebran-portfolio](https://github.com/Gyebran/gyebran-portfolio)
-2. + Created branch `main` in [Gyebran/gyebran-portfolio](https://github.com/Gyebran/gyebran-portfolio)
+<table>
+<tr><th>EVENT</th><th>REPOSITORY</th><th>DETAIL</th></tr>
+<tr><td><code>PUSH</code></td><td><a href="https://github.com/Gyebran/gyebran-portfolio"><b>Gyebran/gyebran-portfolio</b></a></td><td>1 commit</td></tr>
+<tr><td><code>CREATE</code></td><td><a href="https://github.com/Gyebran/gyebran-portfolio"><b>Gyebran/gyebran-portfolio</b></a></td><td>branch <code>main</code></td></tr>
+</table>
 <!--RECENT_ACTIVITY:end-->
 
 <sub>
