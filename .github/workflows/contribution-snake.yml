@@ -19,13 +19,13 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - name: Generate monochrome contribution snakes
+      - name: Generate emerald contribution snakes
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake-dark.svg?color_snake=#f0f6fc&color_dots=#0d1117,#21262d,#30363d,#6e7681,#f0f6fc
-            dist/github-snake-light.svg?color_snake=#24292f&color_dots=#ffffff,#f6f8fa,#d0d7de,#8c959f,#24292f
+            dist/github-snake-dark.svg?color_snake=#00ff9c&color_dots=#0d1117,#0f2d1f,#14532d,#22c55e,#86efac
+            dist/github-snake-light.svg?color_snake=#15803d&color_dots=#ffffff,#dcfce7,#bbf7d0,#4ade80,#166534
 
       - name: Publish snake assets to output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
