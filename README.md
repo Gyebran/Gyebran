@@ -186,8 +186,9 @@ INTERESTS  AI Integration · BPMN · System Architecture · Automation
 <!--RECENT_ACTIVITY:start-->
 <table>
 <tr><th>EVENT</th><th>REPOSITORY</th><th>DETAIL</th></tr>
-<tr><td><code>CREATE</code></td><td><a href="https://github.com/Gyebran/GoWork"><b>Gyebran/GoWork</b></a></td><td>branch main</td></tr>
 <tr><td><code>PUSH</code></td><td><a href="https://github.com/Gyebran/GoWork"><b>Gyebran/GoWork</b></a></td><td>1 commit</td></tr>
+<tr><td><code>CREATE</code></td><td><a href="https://github.com/Gyebran/GoWork"><b>Gyebran/GoWork</b></a></td><td>branch milestone-2</td></tr>
+<tr><td><code>CREATE</code></td><td><a href="https://github.com/Gyebran/GoWork"><b>Gyebran/GoWork</b></a></td><td>branch main</td></tr>
 <tr><td><code>PUSH</code></td><td><a href="https://github.com/Gyebran/gyebran-portfolio"><b>Gyebran/gyebran-portfolio</b></a></td><td>1 commit</td></tr>
 <tr><td><code>CREATE</code></td><td><a href="https://github.com/Gyebran/gyebran-portfolio"><b>Gyebran/gyebran-portfolio</b></a></td><td>branch main</td></tr>
 </table>
@@ -195,7 +196,7 @@ INTERESTS  AI Integration · BPMN · System Architecture · Automation
 
 <sub>
 <!--RECENT_ACTIVITY:last_update-->
-Last updated: Tuesday, September 15, 2026 · 11:53 WIB
+Last updated: Tuesday, September 15, 2026 · 18:43 WIB
 <!--RECENT_ACTIVITY:last_update_end-->
 </sub>
 
