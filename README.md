@@ -35,7 +35,7 @@ MODE       Building · Learning · Improving
 STATUS     ONLINE
 ```
 
-I build digital products by combining **software development, systems thinking, business processes, and AI**. I enjoy working across frontend, backend, databases, APIs, and architecture—especially when the product solves a clear workflow or operational problem.
+I build digital products by combining software development, systems thinking, business processes, and AI. I enjoy working across frontend, backend, databases, APIs, and architecture especially when the product solves a clear workflow or operational problem.
 
 <br clear="right" />
 
