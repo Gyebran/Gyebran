@@ -186,17 +186,17 @@ INTERESTS  AI Integration · BPMN · System Architecture · Automation
 <!--RECENT_ACTIVITY:start-->
 <table>
 <tr><th>EVENT</th><th>REPOSITORY</th><th>DETAIL</th></tr>
+<tr><td><code>PUSH</code></td><td><a href="https://github.com/Gyebran/Dream-Pawn-Shop"><b>Gyebran/Dream-Pawn-Shop</b></a></td><td>1 commit</td></tr>
+<tr><td><code>CREATE</code></td><td><a href="https://github.com/Gyebran/Dream-Pawn-Shop"><b>Gyebran/Dream-Pawn-Shop</b></a></td><td>branch chore/add-laravel-dockerfile</td></tr>
 <tr><td><code>PR</code></td><td><a href="https://github.com/Gyebran/Dream-Pawn-Shop"><b>Gyebran/Dream-Pawn-Shop</b></a></td><td>merged PR #5</td></tr>
 <tr><td><code>PR</code></td><td><a href="https://github.com/Gyebran/Dream-Pawn-Shop"><b>Gyebran/Dream-Pawn-Shop</b></a></td><td>opened PR #5</td></tr>
-<tr><td><code>PUSH</code></td><td><a href="https://github.com/Gyebran/Dream-Pawn-Shop"><b>Gyebran/Dream-Pawn-Shop</b></a></td><td>1 commit</td></tr>
 <tr><td><code>CREATE</code></td><td><a href="https://github.com/Gyebran/Dream-Pawn-Shop"><b>Gyebran/Dream-Pawn-Shop</b></a></td><td>branch fix/guest-browser-auth-redirect</td></tr>
-<tr><td><code>CREATE</code></td><td><a href="https://github.com/Gyebran/Dream-Pawn-Shop"><b>Gyebran/Dream-Pawn-Shop</b></a></td><td>branch ci/neon-postgres-migration-smoke-test</td></tr>
 </table>
 <!--RECENT_ACTIVITY:end-->
 
 <sub>
 <!--RECENT_ACTIVITY:last_update-->
-Last updated: Sunday, October 25, 2026 · 03:48 WIB
+Last updated: Sunday, October 25, 2026 · 11:39 WIB
 <!--RECENT_ACTIVITY:last_update_end-->
 </sub>
 
